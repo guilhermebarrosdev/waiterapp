@@ -10,6 +10,13 @@ mongoose
     const app = express();
     const PORT = 3390;
 
+    app.use((req, res, next) => {
+      res.setHeader("Access-Control-Allow-Origin", "*");
+      res.setHeader("Access-Control-Allow-Methods", "*"); //* = WILDCARD('carta coringa')
+      res.setHeader("Access-Control-Allow-Headers", "*");
+
+      next();
+    });
     app.use(
       "/uploads",
       express.static(path.resolve(__dirname, "..", "uploads"))
