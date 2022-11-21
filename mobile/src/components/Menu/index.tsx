@@ -2,7 +2,7 @@ import { useState } from "react";
 import { FlatList } from "react-native";
 
 import { Product } from "../../types/Product";
-import { formatCurrency } from "../../../utils/formatCurrency";
+import { formatCurrency } from "../../utils/formatCurrency";
 import { PlusCircle } from "../Icons/PlusCircle";
 import { ProductModal } from "../ProductModal";
 import { Text } from "../Text";
