@@ -37,5 +37,5 @@ Foram usadas as tecnologias e ferramentas abaixo:
 <hr/>
 
 <p align="center">
-  Desenvolvido por <a href="https://github.com/guilhermebarrosdev">Guilherme Barros</a>.
+  © Desenvolvido por <a href="https://github.com/guilhermebarrosdev">Guilherme Barros</a>.
 </p>
